@@ -1,46 +1,47 @@
 {
-	"name": "tcl",
-	"displayName": "Tcl",
-	"description": "Tcl language support",
-	"version": "0.2.0",
-	"publisher": "sleutho",
-	"icon": "images/Tcl-powered.svg",
-	"engines": {
-		"vscode": "^0.10.1"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/sleutho/tcl.git"
-	},
-	"categories": [
-		"Languages"
-	],
-	"contributes": {
-		"languages": [
-			{
-				"id": "tcl",
-				"aliases": [
-					"Tcl",
-					"tcl"
-				],
-				"extensions": [
-					".tcl"
-				],
-				"configuration": "./tcl.configuration.json"
-			}
-		],
-		"grammars": [
-			{
-				"language": "tcl",
-				"scopeName": "source.tcl",
-				"path": "./syntaxes/tcl.tmLanguage"
-			}
-		],
-        "snippets": [
-            {
-                "language": "tcl",
-                "path": "./snippets/tcl.json"
-            }
-        ]
-	}
+  "name": "tcl",
+  "displayName": "Tcl",
+  "description": "Tcl language support",
+  "version": "0.3.0",
+  "publisher": "sleutho",
+  "icon": "images/Openbet-powered.png",
+  "engines": {
+    "vscode": "^0.10.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sleutho/tcl.git"
+  },
+  "categories": [
+    "Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "tcl",
+        "aliases": [
+          "Tcl",
+          "tcl"
+        ],
+        "extensions": [
+          ".tcl",
+          ".tbc"
+        ],
+        "configuration": "./tcl.configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "tcl",
+        "scopeName": "source.tcl",
+        "path": "./syntaxes/tcl.tmLanguage"
+      }
+    ],
+    "snippets": [
+      {
+        "language": "tcl",
+        "path": "./snippets/tcl.json"
+      }
+    ]
+  }
 }
